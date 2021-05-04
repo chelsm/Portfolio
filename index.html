@@ -1,2 +1,68 @@
-<h1> Création de porfolio en cours </h1>
-<h2>Comming soon</h2>
+<!DOCTYPE html >
+<html>
+	<head>
+        <title> MON PORTFOLIO </title>
+		<meta charset ="UTF-8" >
+		<link rel = "stylesheet" href = "css/style.css">
+        <script src="parallax.js"></script>
+        <link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
+    </head>
+    
+    <body>
+       
+        
+        <div class="banner-area">
+            <section >
+                <img src ="image/Layer4CP.png" id="Layer4CP">
+                <img src ="image/Layer3CP.png" id="Layer3CP">
+                <img src ="image/Layer2CP.png" id="Layer2CP">
+                <h2 id="texte">Portefolio en cour de création</h2>
+            </section>
+             
+        </div>
+        <div class="main-content">
+            <div class ="wrapper">
+                <h2>Content [...]</h2>
+                <p>Patience</p>
+            </div>
+        </div>s
+            
+        <script type ="text/javascript">
+           let  Layer4CP = document.getElementById("Layer4CP"); 
+           let  Layer3CP = document.getElementById("Layer3CP"); 
+           let  Layer2CP = document.getElementById("Layer2CP"); 
+           let  Layer1CP = document.getElementById("Layer1CP");
+            
+            window.addEventListener('scroll', function(){
+                var value = window.scrollY; 
+                
+                Layer3CP.style.top=value +0.3+'px'; 
+                Layer2CP.style.top=value +0.8+'px'; 
+                TraitCP.style.top=-value -2+'px'; 
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	   <script>
+            var scene = document.getElementById('scene');
+            var parallax = new Parallax(scene);
+            window.addEventListener("scroll", function(){
+                let menuArea = document.getElementById('menu-area'); 
+                if (window.pageYOffset>0){
+                    menuArea.classList.add("cus-nav");   
+                }
+                else{
+                    menuArea.classList.remove("cus-nav")
+                }
+            })
+        </script>
+        
+        
+    </body>
+
+    
+        
+        
+</html>
+        
