@@ -1,68 +1,242 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
-	<head>
-        <title> MON PORTFOLIO </title>
-		<meta charset ="UTF-8" >
-		<link rel = "stylesheet" href = "css/style.css">
-        <script src="parallax.js"></script>
-        <link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
+    <head>
+        <meta charset="utf-8">
+        <title>Chels Portfolio</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="assets/app.js">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel ="shorcut icon" type="image/png" href ="https://image.flaticon.com/icons/png/512/927/927567.png">
     </head>
-    
     <body>
+        <header>
+            <div class="navbar navbar-fixed-top container-fluid" id="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand">EPortfolio</a>
+                </div>
+                <div class="collapse navbar-right navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="index.html #container-bg" >Home </a> </li>
+                        <li> <a href="index.html #container-skill">Skills </a></li>
+                        <li> <a href="index.html #container-exp">Experiences </a> </li>
+                        <li> <a href="index.html #container-contact">Contacts </a> </li>
+                    </ul>
+                </div>
+           </div>
+        </header>
        
+
+        <section class="container-bg" id="container-bg">
+            <!-- <img src="assets/image/Layer1.png" data-speed="-13" class="layer"> -->
+            <img src="assets/img/img1.png" data-speed="-13" class="layer" style="left: -10%;">
+            <img src="assets/img/img2.png" data-speed="35" class="layer">
+            <img src="assets/img/img3.png" data-speed="45" class="layer">
+            <img src="assets/img/img4.png" data-speed="-36" class="layer"style="left: -5%;">
+            <img src="assets/img/img5.png" data-speed="-22" class="layer">
+            <img src="assets/img/img6.png" data-speed="-30" class="layer">
+            <img src="assets/img/img7.png" data-speed="-9" class="layer">
+            <img src="assets/img/img8.png" data-speed="31" class="layer"style="left: 10%;">
+            <img src="assets/img/img9.png" data-speed="24" class="layer">
+            <!-- <img src="assets/img/img10.png" data-speed="-24" class="layer"> -->
+
+            <!-- <div id ="text"data-text="Hi I'm Chelsey "> Hi I'm Chelsey </div> -->
+            <div id ="text"data-text="  ">   </div>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-main">
+                    <h1>Hi, I'm Chelsey</h1>
+                    <p class="lead">
+                        Je suis actuellement étudiante en DUT Informatique à l'IUT <br>
+                        Paris Descartes et future étudiante à IESA dès septembre.
+                       
+                    </p>
+                <button class="btn third">Info 
+                    <a href="index.html #container-gif"></a>
+                </button>
+
+                </div>
+            </div>
+
+        </section>
+
+            <!-- <div id ="text"data-text="Hi I'm Chelsey "> Hi I'm Chelsey </div> -->
+            <!-- <div id ="text"data-text="Hi I'm Chelsey "> Hi I'm Chelsey </div> -->
+
+        <div class="main-content " id="container-gif" >
+                <!-- <h2>Content </h2>
+                <p>TEXTE</p> -->
+
+            <div class ="container-gif" >
+                <div id="gif-zone">
+                    <img class="walking-gif"src="assets/img/giphy.gif" ><br>
+                    <h1 class="gif-text">Artist: Laurie Rowan</h1>
+                </div>
+                <div id="gif-text">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container-text">
+                            <h1>Informations intéressantes à savoir :</h1>
         
-        <div class="banner-area">
-            <section >
-                <img src ="image/Layer4CP.png" id="Layer4CP">
-                <img src ="image/Layer3CP.png" id="Layer3CP">
-                <img src ="image/Layer2CP.png" id="Layer2CP">
-                <h2 id="texte">Portefolio en cours de création</h2>
-            </section>
-             
-        </div>
-        <div class="main-content">
-            <div class ="wrapper">
-                <h2>Content [...]</h2>
-                <p>Patience</p>
+                            <p class="lead">
+                            C'est durant ma formation en Informatique que j'ai decouvert une passion pour le developpement web. 
+                            Je suis en ce moment même à la recherche d'un alternance pour septembre 2021.
+                            Qui sait, vous êtes propablement mes futurs collègues avec qui je pourrais developper mes connaissances 
+                            et acquérir de nouvelles compétences.
+                            </p>
+                            <p>Je suis une personne motivée, à l'écoute et qui aime relever des défis. Je suis très investis dans 
+                                ce que je fais et donnes toujours le meilleur de moi même!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-skill" id="container-skill">
+                <div id ="text"data-text="Skills"> Skills</div>
+
+                <section class="wave-zone">
+                    <div class="wave wave1"> </div>
+                    <div class="wave wave2"> </div>
+                    <div class="wave wave3"> </div>
+                    <div class="wave wave4"> </div>
+                </section>
+
+                <div class="zone" >
+                    <iframe id="cube_web"src='https://my.spline.design/librarycharactergirlblueyellow-df37e3f01b205c23de0b321d6cd09220/' frameborder='0'></iframe>
+                </div>
+            </div>
+
+            <div id="container-exp">
+            <div class="typing-demo" >
+                Experience
+            </div> 
+            <div class="container-exp">
+                
+                <section class ="work"> 
+                    <div id="work-zone">
+                        <img class="computer-pic"src="assets/img/work.jpg" ><br>
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container-text">
+                                <p>
+                                    Je suis en charge de création d'application en C# WPF. <br>
+                                    Dès mon arrivée, j'ai effectué un projet d'entrainement consistant 
+                                    la consultation des informations de la base de données et la réalisation d'opérations spécifiques.
+                                </p>
+                                
+                               
+                            </div>
+                        </div>
+                        
+                        <!-- <a href='https://www.freepik.com/vectors/people'style="margin-left:10px">pch.vector</a> -->
+                    </div>
+                    <div id="work-text">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container-text">
+                                <h1>A partir du moi d'avril, je suis devenu stagiaire au sein du département informatique d'Amundi Management. </h1>
+                            </div>
+                        </div>
+                        <img id="pic-woman"src="assets/img/computer.jpg" alt=""> 
+                    </div>
+                </section>
             </div>
         </div>
-            
-        <script type ="text/javascript">
-           let  Layer4CP = document.getElementById("Layer4CP"); 
-           let  Layer3CP = document.getElementById("Layer3CP"); 
-           let  Layer2CP = document.getElementById("Layer2CP"); 
-           let  Layer1CP = document.getElementById("Layer1CP");
-            
-            window.addEventListener('scroll', function(){
-                var value = window.scrollY; 
+
+
+            <!-- <div class="container-hob"> </div> -->
+            <div class="container-contact" id="container-contact"> 
+                <h1> Contact</h1>
+                <div class="jumbotron jumbotron-fluid contact-text" style=" margin: 0 auto; ">
+                    <div class="container-text ">
+                        <p>
+                           N'hésitez pas à me contacter avec les coordonnées ci-dessous ou à envoyer un message en utilisant le formulaire.
+                        </p>
+                    </div>
+                </div>
                 
-                Layer3CP.style.top=value +0.3+'px'; 
-                Layer2CP.style.top=value +0.8+'px'; 
-                TraitCP.style.top=-value -2+'px'; 
-            })
+
+                <div class="contact">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35321.373823557544!2d2.2462635623955975!3d48.85293158604868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67abe049465cd%3A0x497f02af0718f372!2sIUT%20de%20Paris%20-%20Rives%20de%20Seine%20-%20Universit%C3%A9%20de%20Paris!5e0!3m2!1sfr!2sfr!4v1621879854708!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div id="info">
+                        <div id="info-min">
+                            <h3>Télephone</h3>
+                            <p>07 70 49 44 01</p><br>
+                            <h3>Mail</h3>
+                            <p>chelseymillo@gmail.com</p><br>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/xeqvgjdk" method="POST">
+                        <div id="form">
+                            <div class ="wrapper">
+                                <h3>Ecrire un message   </h3><br>  
+                                <div class="contact-form">
+                                    <div class ="input-fields">
+                                        <input type="text" class="input" placeholder ="Nom" name="nom" required>
+                                        <input type="email" class="input" placeholder ="Email" name="mail"required>
+                                    </div>
+                                    <div class="msg">
+                                        <textarea placeholder ="Messages" name="msg"required ></textarea>
+                                        <button type="submit" class="btn first">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class ="footer-bottom">
+            &copy; Chels 
+        </div> 
+       
+       
+       
+       <script type="text/javascript">
+
+
+            var text = document.getElementById('text')
+            var shadow =''
+            for(var i = 0 ; i<30; i++){
+                shadow +=(shadow? ',':'')+ -i*1+'px '+ i*1+'px 0 #d9d9d9';
+            }
+            text.style.textShadow = shadow; 
+
+            document.addEventListener("mousemove", parallax);
+            function parallax(e){
+                document.querySelectorAll('.layer').forEach(function(move) {
+                    var moving_value = move.getAttribute('data-speed')
+                    var x = (e.clientX * moving_value) /250 
+                    var y = (e.clientY * moving_value) /250 
+                    // var x = (window.innerHeight - e.pageY*moving_value) /250 
+
+                    move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)"
+                    // layer.style.transform = `translateX(${x}px) translateY(${y}px)` 
+                })
+            }
+
+            const navbar = document.querySelector('.navbar');
+            window.onscroll = () => {
+                if (window.scrollY > 500) {
+                    navbar.classList.add('nav-active');
+                } else {
+                    navbar.classList.remove('nav-active');
+                }
+            };
+
+
         </script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	   <script>
-            var scene = document.getElementById('scene');
-            var parallax = new Parallax(scene);
-            window.addEventListener("scroll", function(){
-                let menuArea = document.getElementById('menu-area'); 
-                if (window.pageYOffset>0){
-                    menuArea.classList.add("cus-nav");   
-                }
-                else{
-                    menuArea.classList.remove("cus-nav")
-                }
-            })
-        </script>
-        
-        
+	
     </body>
-
-    
-        
-        
 </html>
-        
